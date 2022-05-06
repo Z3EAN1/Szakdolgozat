@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="saveourcar.soc.ShopActivity">
+    <item
+        android:id="@+id/searchbar"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search">
+
+    </item>
+    <item
+        android:id="@+id/store"
+        app:showAsAction="always"
+        android:title="Like"
+        android:icon="@drawable/ic_store">
+
+        </item>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person_bar"
+        app:showAsAction="always">
+        </item>
+
+</menu>

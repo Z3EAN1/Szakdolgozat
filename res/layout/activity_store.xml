@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoreActivity"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a store"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textSize="28dp"
+        android:textColor="@color/stikeezcolor">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:onClick="open_aldi">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aldi Store"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            ></TextView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:src="@drawable/aldi_logo"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:onClick="open_lidl">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lidl Store"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:src="@drawable/lidl_logo"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:onClick="open_tesco">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tesco Store"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            ></TextView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:src="@drawable/tesco_logo"
+            ></ImageView>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
